@@ -1,0 +1,361 @@
+@import 'color'
+
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
+main
+  background-color: $background
+  width: 100%
+  height: 800px
+
+.wrapper
+  position: relative
+  top: 10%
+  left: 50%
+  width: fit-content
+  &:before
+    content: ""
+    position: absolute
+    background-image: url("../img/before.svg")
+    width: 102px
+    height: 118px
+    right: -20px
+    top: -20px
+
+.div_container
+  width: 440px
+  height: 535px
+  background-color: $white
+  border-radius: 0 50px 50px 50px
+  position: relative
+  z-index: 10
+  box-shadow: 10px 10px 60px #E2E7FF
+  border-radius: 0px 50px 50px 50px
+  overflow: hidden
+  .form
+    padding: 35px 35px 40px
+    .add-product
+      background: unset
+      border: unset
+      color: $green
+      font-size: 18px
+      font-family: GilroySemiBold
+      margin-top: 3px
+      display: flex
+      align-items: center
+      line-height: 22px
+      cursor: pointer
+      span
+        margin-left: 5px
+        background: url("../img/plus.svg")
+        display: inline-block
+        width: 13px
+        height: 14px
+
+  .div_input
+    color: $font1
+    display: flex
+    flex-direction: column
+    margin-bottom: 22px
+    &.div_product
+      span
+        width: 13px
+        height: 14px
+        display: inline-block
+        background: url('../img/plus.svg')
+        margin-left: 5px
+        transform: rotate(45deg)
+        cursor: pointer
+    h3
+      font-family: GilroyBold
+      font-size: 18px
+      line-height: 135%
+    label,
+    p
+      font-size: 16px
+      font-family: GilroyMedium
+      margin-top: 12px
+      line-height: 145%
+    input
+      border: unset
+      border-bottom: 1px solid $grey2
+      color: $font1
+      font-size: 16px
+      font-family: GilroyMedium
+      padding-bottom: 6px
+      margin-top: 12px
+      margin-bottom: 3px
+      line-height: 19px
+      transition: all 0.3s
+      &:focus
+        outline: unset
+        border-bottom: 1px solid $font1
+      &::placeholder
+        color: $grey2
+
+  .for-btn-description
+    color: $font2
+    font-size: 16px
+    font-family: GilroyMedium
+    margin-top: 12px
+    line-height: 19px
+
+  .btn-submit
+    background: $green
+    border: unset
+    color: $white
+    font-family: GilroyBold
+    font-size: 18px
+    width: 100%
+    border-radius: 15px
+    margin-top: 18px
+    line-height: 22px
+    cursor: pointer
+    display: flex
+    align-items: center
+    height: 44px
+    justify-content: center
+
+  .for-btn-submit
+    color: $grey3
+    font-size: 14px
+    font-family: GilroyMedium
+    text-align: center
+    margin-top: 11px
+    line-height: 19px
+    span
+      background: url('../img/closed.svg')
+      display: inline-block
+      width: 11px
+      height: 13px
+      margin-right: 3px
+
+  .div_radio-btn
+    width: 100%
+    border-radius: 15px
+    border: 1px solid $grey2
+    overflow: hidden
+    .container_radio-btn
+      display: flex
+      align-items: center
+      border-bottom: 1px solid $grey2
+      &:hover
+        background: $grey6!important
+      &:last-child
+        border-bottom: unset
+      input[type='radio']
+        z-index: -1
+        opacity: 0
+        position: absolute
+        &:checked + label:after
+          display: block
+        &:checked + label span
+          color: $green
+        &:checked + label
+          background: $grey7
+      label
+        position: relative
+        display: flex
+        align-items: center
+        cursor: pointer
+        padding: 9px 17px
+        height: 59px
+        width: 100%
+        &:before
+          content: ''
+          width: 20px
+          height: 20px
+          display: block
+          box-shadow: 0px 0px 0px 1px rgb(225, 227, 238)
+          border-radius: 50%
+          margin-right: 12px
+        &:after
+          content: ''
+          width: 12px
+          height: 12px
+          border-radius: 50%
+          background: $green
+          position: absolute
+          display: none
+          left: 21px
+          top: 23px
+        p
+          font-family: GilroySemiBold
+          font-size: 16px
+          line-height: 20px
+          color: $black
+        span
+          color: $grey4
+          line-height: 15px
+          font-size: 13px
+          font-family: GilroyMedium
+  .div_add-product
+    display: none
+    .btn-submit
+      margin-top: 23px
+
+  .form-overflow
+    max-height: 373px
+    height: 373px
+
+.name_product
+  display: flex
+  align-items: center
+
+.mCS-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar
+  background-color: $green!important
+
+.mCSB_scrollTools .mCSB_draggerRail
+  background-color: $grey2!important
+  width: 4px!important
+
+.finish_form
+  .viev_result
+    margin: auto
+  .div_input
+    height: 100%
+  .mCSB_container
+    height: 100%!important
+  .overflow
+    height: 100%
+
+.circle
+  display: none
+
+.ouro
+  position: relative
+  display: inline-block
+  height: 32px
+  width: 32px
+  top: 2px
+  border-radius: 50%
+  overflow: hidden
+
+.ouro:after
+  content: ""
+  position: absolute
+  top: 5px
+  left: 5px
+  display: block
+  height: 22px
+  width: 22px
+  background: none repeat scroll 0 0 $green
+  border-radius: 50%
+
+.ouro > span
+  position: absolute
+  height: 100%
+  width: 50%
+  overflow: hidden
+
+.left
+  left: 0
+.right
+  left: 50%
+
+.anim
+  position: absolute
+  left: 100%
+  top: 0
+  height: 100%
+  width: 100%
+  border-radius: 999px
+  background: none repeat scroll 0 0 $white
+  opacity: 0.8
+  -webkit-animation: ui-spinner-rotate-left 1s infinite
+  animation: ui-spinner-rotate-left 1s infinite
+  -webkit-transform-origin: 0 50% 0
+  transform-origin: 0 50% 0
+
+.left .anim
+  border-bottom-left-radius: 0
+  border-top-left-radius: 0
+
+.right .anim
+  border-bottom-right-radius: 0
+  border-top-right-radius: 0
+  left: -100%
+  -webkit-transform-origin: 100% 50% 0
+  transform-origin: 100% 50% 0
+
+
+.ouro3 .anim
+  -webkit-animation-delay: 0s
+  -webkit-animation-duration: 3s
+  -webkit-animation-timing-function: linear
+  animation-delay: 0s
+  animation-duration: 3s
+  animation-timing-function: linear
+
+.ouro3 .right .anim
+  -webkit-animation-name: ui-spinner-rotate-right
+  -webkit-animation-delay: 0s
+  animation-name: ui-spinner-rotate-right
+  animation-delay: 0s
+
+
+/* round variation */
+.round .ouro:after
+  display: none
+
+/* double variation */
+.double .ouro:after
+  height: 13px
+  width: 13px
+  left: 7px
+  top: 7px
+  border: 10px solid #ddd
+  background: transparent
+  box-shadow: none
+
+
+@keyframes ui-spinner-rotate-right
+  0%
+    transform: rotate(0deg)
+  25%
+    transform: rotate(180deg)
+  50%
+    transform: rotate(180deg)
+  75%
+    transform: rotate(360deg)
+  100%
+    transform: rotate(360deg)
+
+@keyframes ui-spinner-rotate-left
+  0%
+    transform: rotate(0deg)
+  25%
+    transform: rotate(0deg)
+  50%
+    transform: rotate(180deg)
+  75%
+    transform: rotate(180deg)
+  100%
+    transform: rotate(360deg)
+
+
+@-webkit-keyframes ui-spinner-rotate-right
+  0%
+    -webkit-transform: rotate(0deg)
+  25%
+    -webkit-transform: rotate(180deg)
+  50%
+    -webkit-transform: rotate(180deg)
+  75%
+    -webkit-transform: rotate(360deg)
+  100%
+    -webkit-transform: rotate(360deg)
+
+@-webkit-keyframes ui-spinner-rotate-left
+  0%
+    -webkit-transform: rotate(0deg)
+  25%
+    -webkit-transform: rotate(0deg)
+  50%
+    -webkit-transform: rotate(180deg)
+  75%
+    -webkit-transform: rotate(180deg)
+  100%
+    -webkit-transform: rotate(360deg)
