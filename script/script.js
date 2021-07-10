@@ -21,27 +21,31 @@ $(document).ready(function (){
         set_price();
     })
 
-    $('.btn-post-form').click(function () {
+    $('.btn-post-form').click(form_result);
+    function form_result() {
         $('.circle').show();
         $('.price-product').empty();
         setTimeout(function (){
-            const state = { 'status': 'success' };
-            const title = 'success';
-            const url = window.location + 'paymentsuccess';
-            if(history.pushState){
-                history.pushState(state, title, url);
+            if(check_form()) {
+                let state = { 'status': 'success' };
+                let title = 'success';
+                let url = window.location + 'paymentsuccess';
+                if(history.pushState){
+                    history.pushState(state, title, url);
+                }
+                success_view();
+            } else {
+                let state = { 'status': 'error' };
+                let title = 'error';
+                let url = window.location + 'paymenterror';
+                if(history.pushState){
+                    history.pushState(state, title, url);
+                }
+                error_view();
             }
-            success_view();
-
-            // const state = { 'status': 'error' };
-            // const title = 'error';
-            // const url = window.location + 'paymenterror';
-            // if(history.pushState){
-            //     history.pushState(state, title, url);
-            // }
-            // erroe_view();
         }, 1500);
-    })
+    }
+
 })
 
 var prices = {
@@ -113,10 +117,10 @@ function success_view() {
         </div>`
     );
     $('.for-btn-submit').hide();
-    $('.btn-post-form').html('Back');
+    $('.btn-post-form').html('Back').off('click');
 }
 
-function erroe_view() {
+function error_view() {
     $('.form-overflow').addClass('finish_form').html(
         `<div class="overflow">
             <div class="div_input">
@@ -129,6 +133,15 @@ function erroe_view() {
         </div>`
     );
     $('.for-btn-submit').hide();
-    $('.btn-post-form').html('Try to pay again').css('background', '#EA717F');
+    $('.btn-post-form').html('Try to pay again').css('background', '#EA717F').off('click');
 }
 
+function check_form() {
+    let result = true;
+    $('.overflow input').each(function () {
+        if($(this).val() === "") {
+            result = false;
+        }
+    });
+    return result;
+}

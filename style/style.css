@@ -1,4 +1,4 @@
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test\.local\/style\/style\.sass}line{font-family:\000033}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test1\.local\/Dan-Yyyy\.github\.io\/style\/style\.sass}line{font-family:\000033}}
 * {
   margin: 0;
   padding: 0;
@@ -6,14 +6,14 @@
           box-sizing: border-box;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test\.local\/style\/style\.sass}line{font-family:\000038}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test1\.local\/Dan-Yyyy\.github\.io\/style\/style\.sass}line{font-family:\000038}}
 main {
   background-color: #F4F5FA;
   width: 100%;
   height: 800px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test\.local\/style\/style\.sass}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test1\.local\/Dan-Yyyy\.github\.io\/style\/style\.sass}line{font-family:\0000313}}
 .wrapper {
   position: relative;
   top: 10%;
@@ -22,7 +22,7 @@ main {
   width: -moz-fit-content;
   width: fit-content;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test\.local\/style\/style\.sass}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test1\.local\/Dan-Yyyy\.github\.io\/style\/style\.sass}line{font-family:\0000318}}
 .wrapper:before {
   content: "";
   position: absolute;
@@ -33,7 +33,7 @@ main {
   top: -20px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test\.local\/style\/style\.sass}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test1\.local\/Dan-Yyyy\.github\.io\/style\/style\.sass}line{font-family:\0000327}}
 .div_container {
   width: 440px;
   height: 535px;
@@ -46,11 +46,11 @@ main {
   border-radius: 0px 50px 50px 50px;
   overflow: hidden;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test\.local\/style\/style\.sass}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test1\.local\/Dan-Yyyy\.github\.io\/style\/style\.sass}line{font-family:\0000337}}
 .div_container .form {
   padding: 35px 35px 40px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test\.local\/style\/style\.sass}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test1\.local\/Dan-Yyyy\.github\.io\/style\/style\.sass}line{font-family:\0000339}}
 .div_container .form .add-product {
   background: unset;
   border: unset;
@@ -67,7 +67,7 @@ main {
   line-height: 22px;
   cursor: pointer;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test\.local\/style\/style\.sass}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test1\.local\/Dan-Yyyy\.github\.io\/style\/style\.sass}line{font-family:\0000350}}
 .div_container .form .add-product span {
   margin-left: 5px;
   background: url("../img/plus.svg");
@@ -75,7 +75,7 @@ main {
   width: 13px;
   height: 14px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test\.local\/style\/style\.sass}line{font-family:\0000357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test1\.local\/Dan-Yyyy\.github\.io\/style\/style\.sass}line{font-family:\0000357}}
 .div_container .div_input {
   color: #1c154e;
   display: -webkit-box;
@@ -87,7 +87,7 @@ main {
           flex-direction: column;
   margin-bottom: 22px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test\.local\/style\/style\.sass}line{font-family:\0000363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test1\.local\/Dan-Yyyy\.github\.io\/style\/style\.sass}line{font-family:\0000363}}
 .div_container .div_input.div_product span {
   width: 13px;
   height: 14px;
@@ -98,13 +98,13 @@ main {
           transform: rotate(45deg);
   cursor: pointer;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test\.local\/style\/style\.sass}line{font-family:\0000371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test1\.local\/Dan-Yyyy\.github\.io\/style\/style\.sass}line{font-family:\0000371}}
 .div_container .div_input h3 {
   font-family: GilroyBold;
   font-size: 18px;
   line-height: 135%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test\.local\/style\/style\.sass}line{font-family:\0000375}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test1\.local\/Dan-Yyyy\.github\.io\/style\/style\.sass}line{font-family:\0000375}}
 .div_container .div_input label,
 .div_container .div_input p {
   font-size: 16px;
@@ -112,7 +112,7 @@ main {
   margin-top: 12px;
   line-height: 145%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test\.local\/style\/style\.sass}line{font-family:\0000381}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test1\.local\/Dan-Yyyy\.github\.io\/style\/style\.sass}line{font-family:\0000381}}
 .div_container .div_input input {
   border: unset;
   border-bottom: 1px solid #E1E3EE;
@@ -126,12 +126,12 @@ main {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test\.local\/style\/style\.sass}line{font-family:\0000392}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test1\.local\/Dan-Yyyy\.github\.io\/style\/style\.sass}line{font-family:\0000392}}
 .div_container .div_input input:focus {
   outline: unset;
   border-bottom: 1px solid #1c154e;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test\.local\/style\/style\.sass}line{font-family:\0000395}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test1\.local\/Dan-Yyyy\.github\.io\/style\/style\.sass}line{font-family:\0000395}}
 .div_container .div_input input::-webkit-input-placeholder {
   color: #E1E3EE;
 }
@@ -144,7 +144,7 @@ main {
 .div_container .div_input input::placeholder {
   color: #E1E3EE;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test\.local\/style\/style\.sass}line{font-family:\0000398}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test1\.local\/Dan-Yyyy\.github\.io\/style\/style\.sass}line{font-family:\0000398}}
 .div_container .for-btn-description {
   color: #494471;
   font-size: 16px;
@@ -152,7 +152,7 @@ main {
   margin-top: 12px;
   line-height: 19px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test\.local\/style\/style\.sass}line{font-family:\00003105}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test1\.local\/Dan-Yyyy\.github\.io\/style\/style\.sass}line{font-family:\00003105}}
 .div_container .btn-submit {
   background: #23C967;
   border: unset;
@@ -175,7 +175,7 @@ main {
       -ms-flex-pack: center;
           justify-content: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test\.local\/style\/style\.sass}line{font-family:\00003121}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test1\.local\/Dan-Yyyy\.github\.io\/style\/style\.sass}line{font-family:\00003121}}
 .div_container .for-btn-submit {
   color: #AFB4CC;
   font-size: 14px;
@@ -184,7 +184,7 @@ main {
   margin-top: 11px;
   line-height: 19px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test\.local\/style\/style\.sass}line{font-family:\00003128}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test1\.local\/Dan-Yyyy\.github\.io\/style\/style\.sass}line{font-family:\00003128}}
 .div_container .for-btn-submit span {
   background: url("../img/closed.svg");
   display: inline-block;
@@ -192,14 +192,14 @@ main {
   height: 13px;
   margin-right: 3px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test\.local\/style\/style\.sass}line{font-family:\00003135}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test1\.local\/Dan-Yyyy\.github\.io\/style\/style\.sass}line{font-family:\00003135}}
 .div_container .div_radio-btn {
   width: 100%;
   border-radius: 15px;
   border: 1px solid #E1E3EE;
   overflow: hidden;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test\.local\/style\/style\.sass}line{font-family:\00003140}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test1\.local\/Dan-Yyyy\.github\.io\/style\/style\.sass}line{font-family:\00003140}}
 .div_container .div_radio-btn .container_radio-btn {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -209,33 +209,33 @@ main {
           align-items: center;
   border-bottom: 1px solid #E1E3EE;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test\.local\/style\/style\.sass}line{font-family:\00003144}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test1\.local\/Dan-Yyyy\.github\.io\/style\/style\.sass}line{font-family:\00003144}}
 .div_container .div_radio-btn .container_radio-btn:hover {
   background: #F4F4F4 !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test\.local\/style\/style\.sass}line{font-family:\00003146}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test1\.local\/Dan-Yyyy\.github\.io\/style\/style\.sass}line{font-family:\00003146}}
 .div_container .div_radio-btn .container_radio-btn:last-child {
   border-bottom: unset;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test\.local\/style\/style\.sass}line{font-family:\00003148}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test1\.local\/Dan-Yyyy\.github\.io\/style\/style\.sass}line{font-family:\00003148}}
 .div_container .div_radio-btn .container_radio-btn input[type='radio'] {
   z-index: -1;
   opacity: 0;
   position: absolute;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test\.local\/style\/style\.sass}line{font-family:\00003152}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test1\.local\/Dan-Yyyy\.github\.io\/style\/style\.sass}line{font-family:\00003152}}
 .div_container .div_radio-btn .container_radio-btn input[type='radio']:checked + label:after {
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test\.local\/style\/style\.sass}line{font-family:\00003154}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test1\.local\/Dan-Yyyy\.github\.io\/style\/style\.sass}line{font-family:\00003154}}
 .div_container .div_radio-btn .container_radio-btn input[type='radio']:checked + label span {
   color: #23C967;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test\.local\/style\/style\.sass}line{font-family:\00003156}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test1\.local\/Dan-Yyyy\.github\.io\/style\/style\.sass}line{font-family:\00003156}}
 .div_container .div_radio-btn .container_radio-btn input[type='radio']:checked + label {
   background: #F4F5FA;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test\.local\/style\/style\.sass}line{font-family:\00003158}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test1\.local\/Dan-Yyyy\.github\.io\/style\/style\.sass}line{font-family:\00003158}}
 .div_container .div_radio-btn .container_radio-btn label {
   position: relative;
   display: -webkit-box;
@@ -249,7 +249,7 @@ main {
   height: 59px;
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test\.local\/style\/style\.sass}line{font-family:\00003166}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test1\.local\/Dan-Yyyy\.github\.io\/style\/style\.sass}line{font-family:\00003166}}
 .div_container .div_radio-btn .container_radio-btn label:before {
   content: "";
   width: 20px;
@@ -260,7 +260,7 @@ main {
   border-radius: 50%;
   margin-right: 12px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test\.local\/style\/style\.sass}line{font-family:\00003174}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test1\.local\/Dan-Yyyy\.github\.io\/style\/style\.sass}line{font-family:\00003174}}
 .div_container .div_radio-btn .container_radio-btn label:after {
   content: "";
   width: 12px;
@@ -272,35 +272,35 @@ main {
   left: 21px;
   top: 23px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test\.local\/style\/style\.sass}line{font-family:\00003184}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test1\.local\/Dan-Yyyy\.github\.io\/style\/style\.sass}line{font-family:\00003184}}
 .div_container .div_radio-btn .container_radio-btn label p {
   font-family: GilroySemiBold;
   font-size: 16px;
   line-height: 20px;
   color: black;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test\.local\/style\/style\.sass}line{font-family:\00003189}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test1\.local\/Dan-Yyyy\.github\.io\/style\/style\.sass}line{font-family:\00003189}}
 .div_container .div_radio-btn .container_radio-btn label span {
   color: #a7a2cb;
   line-height: 15px;
   font-size: 13px;
   font-family: GilroyMedium;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test\.local\/style\/style\.sass}line{font-family:\00003194}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test1\.local\/Dan-Yyyy\.github\.io\/style\/style\.sass}line{font-family:\00003194}}
 .div_container .div_add-product {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test\.local\/style\/style\.sass}line{font-family:\00003196}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test1\.local\/Dan-Yyyy\.github\.io\/style\/style\.sass}line{font-family:\00003196}}
 .div_container .div_add-product .btn-submit {
   margin-top: 23px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test\.local\/style\/style\.sass}line{font-family:\00003199}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test1\.local\/Dan-Yyyy\.github\.io\/style\/style\.sass}line{font-family:\00003199}}
 .div_container .form-overflow {
   max-height: 373px;
   height: 373px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test\.local\/style\/style\.sass}line{font-family:\00003203}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test1\.local\/Dan-Yyyy\.github\.io\/style\/style\.sass}line{font-family:\00003203}}
 .name_product {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -310,40 +310,40 @@ main {
           align-items: center;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test\.local\/style\/style\.sass}line{font-family:\00003207}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test1\.local\/Dan-Yyyy\.github\.io\/style\/style\.sass}line{font-family:\00003207}}
 .mCS-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
   background-color: #23C967 !important;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test\.local\/style\/style\.sass}line{font-family:\00003210}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test1\.local\/Dan-Yyyy\.github\.io\/style\/style\.sass}line{font-family:\00003210}}
 .mCSB_scrollTools .mCSB_draggerRail {
   background-color: #E1E3EE !important;
   width: 4px !important;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test\.local\/style\/style\.sass}line{font-family:\00003215}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test1\.local\/Dan-Yyyy\.github\.io\/style\/style\.sass}line{font-family:\00003215}}
 .finish_form .viev_result {
   margin: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test\.local\/style\/style\.sass}line{font-family:\00003217}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test1\.local\/Dan-Yyyy\.github\.io\/style\/style\.sass}line{font-family:\00003217}}
 .finish_form .div_input {
   height: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test\.local\/style\/style\.sass}line{font-family:\00003219}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test1\.local\/Dan-Yyyy\.github\.io\/style\/style\.sass}line{font-family:\00003219}}
 .finish_form .mCSB_container {
   height: 100% !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test\.local\/style\/style\.sass}line{font-family:\00003221}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test1\.local\/Dan-Yyyy\.github\.io\/style\/style\.sass}line{font-family:\00003221}}
 .finish_form .overflow {
   height: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test\.local\/style\/style\.sass}line{font-family:\00003224}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test1\.local\/Dan-Yyyy\.github\.io\/style\/style\.sass}line{font-family:\00003224}}
 .circle {
   display: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test\.local\/style\/style\.sass}line{font-family:\00003227}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test1\.local\/Dan-Yyyy\.github\.io\/style\/style\.sass}line{font-family:\00003227}}
 .ouro {
   position: relative;
   display: inline-block;
@@ -354,7 +354,7 @@ main {
   overflow: hidden;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test\.local\/style\/style\.sass}line{font-family:\00003236}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test1\.local\/Dan-Yyyy\.github\.io\/style\/style\.sass}line{font-family:\00003236}}
 .ouro:after {
   content: "";
   position: absolute;
@@ -367,7 +367,7 @@ main {
   border-radius: 50%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test\.local\/style\/style\.sass}line{font-family:\00003247}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test1\.local\/Dan-Yyyy\.github\.io\/style\/style\.sass}line{font-family:\00003247}}
 .ouro > span {
   position: absolute;
   height: 100%;
@@ -375,17 +375,17 @@ main {
   overflow: hidden;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test\.local\/style\/style\.sass}line{font-family:\00003253}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test1\.local\/Dan-Yyyy\.github\.io\/style\/style\.sass}line{font-family:\00003253}}
 .left {
   left: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test\.local\/style\/style\.sass}line{font-family:\00003255}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test1\.local\/Dan-Yyyy\.github\.io\/style\/style\.sass}line{font-family:\00003255}}
 .right {
   left: 50%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test\.local\/style\/style\.sass}line{font-family:\00003258}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test1\.local\/Dan-Yyyy\.github\.io\/style\/style\.sass}line{font-family:\00003258}}
 .anim {
   position: absolute;
   left: 100%;
@@ -401,13 +401,13 @@ main {
   transform-origin: 0 50% 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test\.local\/style\/style\.sass}line{font-family:\00003272}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test1\.local\/Dan-Yyyy\.github\.io\/style\/style\.sass}line{font-family:\00003272}}
 .left .anim {
   border-bottom-left-radius: 0;
   border-top-left-radius: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test\.local\/style\/style\.sass}line{font-family:\00003276}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test1\.local\/Dan-Yyyy\.github\.io\/style\/style\.sass}line{font-family:\00003276}}
 .right .anim {
   border-bottom-right-radius: 0;
   border-top-right-radius: 0;
@@ -416,7 +416,7 @@ main {
   transform-origin: 100% 50% 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test\.local\/style\/style\.sass}line{font-family:\00003284}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test1\.local\/Dan-Yyyy\.github\.io\/style\/style\.sass}line{font-family:\00003284}}
 .ouro3 .anim {
   -webkit-animation-delay: 0s;
   -webkit-animation-duration: 3s;
@@ -426,7 +426,7 @@ main {
   animation-timing-function: linear;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test\.local\/style\/style\.sass}line{font-family:\00003292}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test1\.local\/Dan-Yyyy\.github\.io\/style\/style\.sass}line{font-family:\00003292}}
 .ouro3 .right .anim {
   -webkit-animation-name: ui-spinner-rotate-right;
   -webkit-animation-delay: 0s;
@@ -435,13 +435,13 @@ main {
 }
 
 /* round variation */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test\.local\/style\/style\.sass}line{font-family:\00003300}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test1\.local\/Dan-Yyyy\.github\.io\/style\/style\.sass}line{font-family:\00003300}}
 .round .ouro:after {
   display: none;
 }
 
 /* double variation */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test\.local\/style\/style\.sass}line{font-family:\00003304}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/OpenServer\/domains\/test1\.local\/Dan-Yyyy\.github\.io\/style\/style\.sass}line{font-family:\00003304}}
 .double .ouro:after {
   height: 13px;
   width: 13px;
